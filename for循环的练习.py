@@ -1,6 +1,6 @@
 #计算1到1000之间所有指数的和
 sum = 0 #定义变量存储结果
-for i in range(2,1001): #i的值从2到100
+for i in range(2,1001): #i的值从2到1000
     temp=0 #定义变量，临时存储值；
     for j in range(2,1001):
         if (i % j == 0) and (j < i) :

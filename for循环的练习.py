@@ -6,11 +6,10 @@ for i in range(2,1001): #i的值从2到1000
         if (i % j == 0) and (j < i) :
             temp = 0 #如果除余为0，则将临时变量从新赋值为0
             break #跳出for循环
-        else:
+        else: #这里要加：号，与C#不同
             temp = i
     sum = sum + temp #求出sum的值
 #以下是print语句的基本使用方法
 print("1到100之间所有质数的和为：",format(sum))
 print('和为：'+str(sum))
 print("1到100之间所有质数的和为：{0}".format(sum))
-print("this is my first Python Project")

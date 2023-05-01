@@ -13,5 +13,3 @@ for i in range(2,1001): #i的值从2到1000
 print("1到100之间所有质数的和为：",format(sum))
 print('和为：'+str(sum))
 print("1到100之间所有质数的和为：{0}".format(sum))
-result = 3.1415926
-print('{},小数 类型,{}'.format(result,type(result)))

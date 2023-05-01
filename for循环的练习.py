@@ -5,7 +5,7 @@ for i in range(2,1001): #i的值从2到100
     for j in range(2,1001):
         if (i % j == 0) and (j < i) :
             temp = 0 #如果除余为0，则将临时变量从新赋值为0
-            break
+            break #跳出for循环
         else:
             temp = i
     sum = sum + temp #求和

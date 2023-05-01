@@ -8,7 +8,7 @@ for i in range(2,1001): #i的值从2到1000
             break #跳出for循环
         else:
             temp = i
-    sum = sum + temp #求和
+    sum = sum + temp #求出sum的值
 #以下是print语句的基本使用方法
 print("1到100之间所有质数的和为：",format(sum))
 print('和为：'+str(sum))

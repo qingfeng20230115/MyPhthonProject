@@ -2,7 +2,7 @@
 sum = 0 #定义变量存储结果
 for i in range(2,1001): #i的值从2到1000
     temp=0 #定义变量，临时存储值；
-    for j in range(2,1001): //J的值在2到1000之间
+    for j in range(2,1001): #J的值在2到1000之间
         if (i % j == 0) and (j < i) :
             temp = 0 #如果除余为0，则将临时变量从新赋值为0
             break #跳出for循环
